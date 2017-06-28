@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41D7C271F03349600F56B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D7C261F03349600F56B98 /* AppDelegate.swift */; };
+		C41D7C291F03349600F56B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D7C281F03349600F56B98 /* ViewController.swift */; };
+		C41D7C2C1F03349600F56B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41D7C2A1F03349600F56B98 /* Main.storyboard */; };
+		C41D7C2E1F03349600F56B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41D7C2D1F03349600F56B98 /* Assets.xcassets */; };
+		C41D7C311F03349600F56B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41D7C2F1F03349600F56B98 /* LaunchScreen.storyboard */; };
+		C41D7C3C1F03349700F56B98 /* PicduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D7C3B1F03349700F56B98 /* PicduTests.swift */; };
+		C41D7C471F03349700F56B98 /* PicduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D7C461F03349700F56B98 /* PicduUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C41D7C381F03349700F56B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41D7C1B1F03349600F56B98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41D7C221F03349600F56B98;
+			remoteInfo = Picdu;
+		};
+		C41D7C431F03349700F56B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41D7C1B1F03349600F56B98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41D7C221F03349600F56B98;
+			remoteInfo = Picdu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41D7C231F03349600F56B98 /* Picdu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picdu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41D7C261F03349600F56B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C41D7C281F03349600F56B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C41D7C2B1F03349600F56B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41D7C2D1F03349600F56B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C41D7C301F03349600F56B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C41D7C321F03349600F56B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41D7C371F03349700F56B98 /* PicduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41D7C3B1F03349700F56B98 /* PicduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicduTests.swift; sourceTree = "<group>"; };
+		C41D7C3D1F03349700F56B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41D7C421F03349700F56B98 /* PicduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41D7C461F03349700F56B98 /* PicduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicduUITests.swift; sourceTree = "<group>"; };
+		C41D7C481F03349700F56B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41D7C201F03349600F56B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D7C341F03349700F56B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D7C3F1F03349700F56B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41D7C1A1F03349600F56B98 = {
+			isa = PBXGroup;
+			children = (
+				C41D7C251F03349600F56B98 /* Picdu */,
+				C41D7C3A1F03349700F56B98 /* PicduTests */,
+				C41D7C451F03349700F56B98 /* PicduUITests */,
+				C41D7C241F03349600F56B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41D7C241F03349600F56B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7C231F03349600F56B98 /* Picdu.app */,
+				C41D7C371F03349700F56B98 /* PicduTests.xctest */,
+				C41D7C421F03349700F56B98 /* PicduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41D7C251F03349600F56B98 /* Picdu */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7C261F03349600F56B98 /* AppDelegate.swift */,
+				C41D7C281F03349600F56B98 /* ViewController.swift */,
+				C41D7C2A1F03349600F56B98 /* Main.storyboard */,
+				C41D7C2D1F03349600F56B98 /* Assets.xcassets */,
+				C41D7C2F1F03349600F56B98 /* LaunchScreen.storyboard */,
+				C41D7C321F03349600F56B98 /* Info.plist */,
+			);
+			path = Picdu;
+			sourceTree = "<group>";
+		};
+		C41D7C3A1F03349700F56B98 /* PicduTests */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7C3B1F03349700F56B98 /* PicduTests.swift */,
+				C41D7C3D1F03349700F56B98 /* Info.plist */,
+			);
+			path = PicduTests;
+			sourceTree = "<group>";
+		};
+		C41D7C451F03349700F56B98 /* PicduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7C461F03349700F56B98 /* PicduUITests.swift */,
+				C41D7C481F03349700F56B98 /* Info.plist */,
+			);
+			path = PicduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41D7C221F03349600F56B98 /* Picdu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41D7C4B1F03349700F56B98 /* Build configuration list for PBXNativeTarget "Picdu" */;
+			buildPhases = (
+				C41D7C1F1F03349600F56B98 /* Sources */,
+				C41D7C201F03349600F56B98 /* Frameworks */,
+				C41D7C211F03349600F56B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picdu;
+			productName = Picdu;
+			productReference = C41D7C231F03349600F56B98 /* Picdu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41D7C361F03349700F56B98 /* PicduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41D7C4E1F03349700F56B98 /* Build configuration list for PBXNativeTarget "PicduTests" */;
+			buildPhases = (
+				C41D7C331F03349700F56B98 /* Sources */,
+				C41D7C341F03349700F56B98 /* Frameworks */,
+				C41D7C351F03349700F56B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41D7C391F03349700F56B98 /* PBXTargetDependency */,
+			);
+			name = PicduTests;
+			productName = PicduTests;
+			productReference = C41D7C371F03349700F56B98 /* PicduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C41D7C411F03349700F56B98 /* PicduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41D7C511F03349700F56B98 /* Build configuration list for PBXNativeTarget "PicduUITests" */;
+			buildPhases = (
+				C41D7C3E1F03349700F56B98 /* Sources */,
+				C41D7C3F1F03349700F56B98 /* Frameworks */,
+				C41D7C401F03349700F56B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41D7C441F03349700F56B98 /* PBXTargetDependency */,
+			);
+			name = PicduUITests;
+			productName = PicduUITests;
+			productReference = C41D7C421F03349700F56B98 /* PicduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41D7C1B1F03349600F56B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "TDPG iMAC";
+				TargetAttributes = {
+					C41D7C221F03349600F56B98 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VY4HXFQBRZ;
+						ProvisioningStyle = Automatic;
+					};
+					C41D7C361F03349700F56B98 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VY4HXFQBRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C41D7C221F03349600F56B98;
+					};
+					C41D7C411F03349700F56B98 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VY4HXFQBRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C41D7C221F03349600F56B98;
+					};
+				};
+			};
+			buildConfigurationList = C41D7C1E1F03349600F56B98 /* Build configuration list for PBXProject "Picdu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41D7C1A1F03349600F56B98;
+			productRefGroup = C41D7C241F03349600F56B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41D7C221F03349600F56B98 /* Picdu */,
+				C41D7C361F03349700F56B98 /* PicduTests */,
+				C41D7C411F03349700F56B98 /* PicduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41D7C211F03349600F56B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D7C311F03349600F56B98 /* LaunchScreen.storyboard in Resources */,
+				C41D7C2E1F03349600F56B98 /* Assets.xcassets in Resources */,
+				C41D7C2C1F03349600F56B98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D7C351F03349700F56B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D7C401F03349700F56B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41D7C1F1F03349600F56B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D7C291F03349600F56B98 /* ViewController.swift in Sources */,
+				C41D7C271F03349600F56B98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D7C331F03349700F56B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D7C3C1F03349700F56B98 /* PicduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D7C3E1F03349700F56B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D7C471F03349700F56B98 /* PicduUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41D7C391F03349700F56B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41D7C221F03349600F56B98 /* Picdu */;
+			targetProxy = C41D7C381F03349700F56B98 /* PBXContainerItemProxy */;
+		};
+		C41D7C441F03349700F56B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41D7C221F03349600F56B98 /* Picdu */;
+			targetProxy = C41D7C431F03349700F56B98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C41D7C2A1F03349600F56B98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41D7C2B1F03349600F56B98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C41D7C2F1F03349600F56B98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41D7C301F03349600F56B98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41D7C491F03349700F56B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C41D7C4A1F03349700F56B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41D7C4C1F03349700F56B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY4HXFQBRZ;
+				INFOPLIST_FILE = Picdu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgnewApplications.Picdu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C41D7C4D1F03349700F56B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY4HXFQBRZ;
+				INFOPLIST_FILE = Picdu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgnewApplications.Picdu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C41D7C4F1F03349700F56B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VY4HXFQBRZ;
+				INFOPLIST_FILE = PicduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgnewApplications.PicduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picdu.app/Picdu";
+			};
+			name = Debug;
+		};
+		C41D7C501F03349700F56B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VY4HXFQBRZ;
+				INFOPLIST_FILE = PicduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgnewApplications.PicduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picdu.app/Picdu";
+			};
+			name = Release;
+		};
+		C41D7C521F03349700F56B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VY4HXFQBRZ;
+				INFOPLIST_FILE = PicduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgnewApplications.PicduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Picdu;
+			};
+			name = Debug;
+		};
+		C41D7C531F03349700F56B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VY4HXFQBRZ;
+				INFOPLIST_FILE = PicduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgnewApplications.PicduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Picdu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41D7C1E1F03349600F56B98 /* Build configuration list for PBXProject "Picdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D7C491F03349700F56B98 /* Debug */,
+				C41D7C4A1F03349700F56B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41D7C4B1F03349700F56B98 /* Build configuration list for PBXNativeTarget "Picdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D7C4C1F03349700F56B98 /* Debug */,
+				C41D7C4D1F03349700F56B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C41D7C4E1F03349700F56B98 /* Build configuration list for PBXNativeTarget "PicduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D7C4F1F03349700F56B98 /* Debug */,
+				C41D7C501F03349700F56B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C41D7C511F03349700F56B98 /* Build configuration list for PBXNativeTarget "PicduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41D7C521F03349700F56B98 /* Debug */,
+				C41D7C531F03349700F56B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41D7C1B1F03349600F56B98 /* Project object */;
+}
